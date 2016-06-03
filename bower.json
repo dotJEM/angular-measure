@@ -1,0 +1,17 @@
+{
+  "name": "dotjem-angular-measure",
+  "description": "Angular directives for creating measurement overlays where a user can measure distances (in pixels).",
+  "main": "dotjem-angular-measure.js",
+  "authors": [
+    "dotJEM"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "image",
+    "measure"
+  ],
+  "homepage": "https://github.com/dotJEM/angular-measure",
+  "dependencies": {
+    "dotjem-angular-events": "^0.0.1"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "angular-measure",
+  "version": "0.0.1",
+  "description": "Angular directives for creating measurement overlays where a user can measure distances (in pixels)..",
+  "main": "index.js",
+  "scripts": {
+    "init_bower": "bower install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://jeme@github.com/dotJEM/angular-measure.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dotJEM/angular-measure/issues"
+  },
+  "homepage": "https://github.com/dotJEM/angular-measure#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.9",
+    "gulp-concat": "^2.6.0",
+    "gulp-css-globbing": "^0.1.8",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.1",
+    "gulp-typescript": "^2.13.6",
+    "gulp-uglify": "^1.5.3"
+  }
+}
