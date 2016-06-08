@@ -46,11 +46,5 @@ gulp.task('dist-scss', function() {
         //      build a single scss file that can be used by consumers of
         //      the library in their scss tool chain.
         .pipe(rename('_dotjem-angular-measure.scss'))
-        .pipe(gulp.dest("dist"))
-        .pipe(sass().on('error', sass.logError))
-        .pipe(rename('dotjem-angular-measure.css'))
-        .pipe(gulp.dest("dist"))
-        .pipe(cleancss())
-        .pipe(rename('dotjem-angular-measure.min.css'))
-        .pipe(gulp.dest('dist'));
+        .pipe(gulp.dest("dist"));
 });
